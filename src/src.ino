@@ -83,6 +83,7 @@ void loop()
     lcd.setCursor(0,0);
     lcd.print("distance:");
     lcd.setCursor(0,1);
+//    lcd.print(newMean);
     lcd.print(output);
     lcd.print(" mm");
     delay(2000);
